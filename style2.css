@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior:smooth;
+}
+/* The Background Of the website */
+body{
+    background: linear-gradient(-45deg, #E27D60, #85ADCB, #E8A87C, #41B3a3);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600px;
+    
+    
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.heading{
+    width: 100%;
+    height: 20%;
+    /* background-color: aliceblue; */
+    padding: 20px;
+}
+
+.heading h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.main{
+    width: 100%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    padding: 20px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* background-color:blue; */
+    float: right;
+    padding: 20px;
+}
+.plates{
+    height: 100%;
+    width: 100%;
+    box-shadow: 20px 20px 50px rgba(0, 0,0 , 0.5);
+    border-radius: 30px;
+    background: rgba(225, 225, 225, 0.5);
+    backdrop-filter: blur(7px);
+    overflow: hidden;
+    padding: 20px;
+}
+.plates h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rules1{
+    margin-top: 40px;
+}
+
+.para{
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.navbar{
+    margin-bottom: 60px;
+}
+

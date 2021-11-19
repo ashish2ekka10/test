@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binge Initiator</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    link
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Welcome to Binge Initiator</h1>
+    </div>
+
+    <div class="main">
+        <div class="left">
+            <div class="plates">
+                <h1>Review Corner 🎬</h1>
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand">Know Movie reviews!</a>
+                        <form class="d-flex" id="searchform1">
+                            <input class="form-control me-2" type="search" placeholder="Enter Movie Name"
+                                aria-label="Search" id="movie1">
+                            <button class="btn btn-outline-success" id="submit1" type="submit">Search</button>
+                        </form> 
+                    </div>
+                </nav>
+                <div class="text">
+                    <p class="rules1">How to Know reviews:<br>
+                        <ul>
+                            <li>STEP 1: Enter Name of the movie.</li>
+                            <li>STEP 2: Press the search button</li>
+                            <li>STEP 3: The API will fetch you the Release date!</li>
+                            <li>STEP 4: See the date and wait for your binge watch</li>
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right">
+            <div class="plates">
+                <h1>Know The Dates 📅</h1>
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand">Know release dates!</a>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Enter Movie Name"
+                                aria-label="Search" id="movie2">
+                            <button class="btn btn-outline-success" id="submit2" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+                <div class="text1">
+                    <p class="rules1">How to Know reviews:<br>
+                    <ul>
+                        <li>STEP 1: Enter Name of the movie.</li>
+                        <li>STEP 2: Press the search button</li>
+                        <li>STEP 3: The API will fetch you the Release date!</li>
+                        <li>STEP 4: See the date and wait for your binge watch</li>
+                    </ul>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <!-- 
+        the div below contains the output. 
+        It can be customized using html and css according to needs.
+     -->
+    <div>
+        <div id="showmovies" class="row"></div>
+    </div>
+   
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+   
+</body>
+
+</html>
